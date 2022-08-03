@@ -13,10 +13,6 @@ const Header: React.FC = () => {
         <h1 className={s.fio}>Олянский Евгений</h1>
         <h3 className={s.profession}>Frontend - Developer</h3>
         <span className={s.contacts}>
-          <img className={s.locationIcon} src={location} alt='location icon' />{" "}
-          РФ г.Омск
-        </span>
-        <span className={s.contacts}>
           <a href='https://ru.hexlet.io/u/evgeniyol/courses' target='blank'>
             <img width='20px' src={hexletLink} alt='HexletLink' /> Hexlet{" "}
           </a>
@@ -38,8 +34,19 @@ const Header: React.FC = () => {
           </a>
         </span>
       </div>
-      <div>
+      <div className={s.photoInfo}>
         <img className={s.myPhoto} src={myPhoto} alt='myPhoto' />
+        <div className={s.info}>
+          <span>
+            <img
+              className={s.locationIcon}
+              src={location}
+              alt='location icon'
+            />
+            РФ г.Омск
+          </span>
+          <p>28 лет</p>
+        </div>
       </div>
     </header>
   );
