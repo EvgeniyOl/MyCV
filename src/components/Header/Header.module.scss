@@ -1,0 +1,40 @@
+.tittle {
+  font-family: "Alegreya", serif;
+  font-weight: 500;
+  box-sizing: border-box;
+  min-height: 150px;
+  width: 100%;
+  background-color: #f7fbfc;
+  display: flex;
+}
+.fio {
+  box-sizing: border-box;
+  margin: 0;
+  padding-top: 30px;
+  padding-left: 90px;
+  font-size: 60px;
+  color: rgb(41, 16, 78);
+}
+.profession {
+  box-sizing: border-box;
+  font-size: 30px;
+  padding-left: 460px;
+  margin-top: 30px;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  color: rgb(62, 24, 115);
+}
+.myPhoto {
+  max-height: 200px;
+  padding: 20px 200px 20px 150px;
+}
+.locationIcon {
+  width: 20px;
+}
+.contacts {
+  margin: 10px;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}

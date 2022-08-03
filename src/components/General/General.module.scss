@@ -1,0 +1,15 @@
+.hexletDoc {
+  max-width: 150px;
+}
+.hexletDoc:hover {
+  max-width: 500px;
+  transition: 1.5s;
+}
+.skills {
+  display: flex;
+  justify-content: space-around;
+}
+.icons img {
+  width: 60px;
+  margin: 10px;
+}
