@@ -49,7 +49,7 @@ const Portfolio: React.FC = () => {
       <h3>
         <a
           className={s.projectLink}
-          href='https://my-chat-react-55.herokuapp.com/login'
+          href='https://my-chat-react-55.herokuapp.com/'
           target='blank'
         >
           Online-Chat (Slack-chat analogue)
