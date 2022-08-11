@@ -8,7 +8,7 @@ const Portfolio: React.FC = () => {
       <h3>
         <a
           className={s.projectLink}
-          href='https://kofevarka-service-nuopbmkes-evgeniyol.vercel.app/'
+          href='http://kofevarkaservice.ru'
           target='blank'
         >
           Kofevarka-service
