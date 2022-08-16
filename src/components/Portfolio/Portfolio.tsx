@@ -30,6 +30,27 @@ const Portfolio: React.FC = () => {
       <h3>
         <a
           className={s.projectLink}
+          href='https://weather-b2uoswpn3-evgeniyol.vercel.app/'
+          target='blank'
+        >
+          Weather
+        </a>
+      </h3>
+      <p>Приложение погоды</p>
+      <ul>
+        <li>React с приминением TypeScript Scss</li>
+        <li>Автоматическое определение геолокации</li>
+        <li>Обновление данных каждую минуту</li>
+        <li>
+          При запрете определения местоположения автоматически устанавливается
+          город Омск
+        </li>
+      </ul>
+
+      <hr />
+      <h3>
+        <a
+          className={s.projectLink}
           href='https://rss-project-1zjnnkrcb-evgeniyol.vercel.app/'
           target='blank'
         >
