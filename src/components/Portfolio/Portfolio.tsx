@@ -46,7 +46,19 @@ const Portfolio: React.FC = () => {
           город Омск
         </li>
       </ul>
-
+      <h3>
+        <a
+          className={s.projectLink}
+          href='https://quiz-game-blue.vercel.app/'
+          target='blank'
+        >
+          Quiz game
+        </a>
+      </h3>
+      <p>Маленькая викторина - вопросы из различных областей знания.</p>
+      <ul>
+        <li>React с приминением TypeScript Scss</li>
+      </ul>
       <hr />
       <h3>
         <a
