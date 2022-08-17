@@ -46,6 +46,7 @@ const Portfolio: React.FC = () => {
           город Омск
         </li>
       </ul>
+      <hr />
       <h3>
         <a
           className={s.projectLink}
